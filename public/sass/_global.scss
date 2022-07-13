@@ -1,0 +1,24 @@
+/*ESTILOS GLOBALES */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$color_Principal: #6F52BF;
+$textoTitulo: 'ROBOTO';
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: $color_Principal;
+    font-family: 'ROBOTO';
+    font-weight: bold;
+}
+h1{
+    font-family: $textoTitulo;
+    
+}
